@@ -1,0 +1,16 @@
+to determine the runtime of the unique1 and unique2 methods, the following input sizes were used:  
+  n=50, 200, 10000, 20000, 50000, 100000, 200000 (from the index).
+n =  50: unique1 = 9.545E-4 secs , unique2 = 0.0110616 secs.
+n = 200: unique1 = 3.152E-4 secs , unique2 = 8.53E-5 secs.
+n = 10000: unique1 = 0.0208869 secs , unique2 = 0.0020204 secs.
+n = 20000: unique1 = 0.0308118 secs , unique2 = 0.0074381 secs.
+n = 50000: unique1 = 0.1764799 secs , unique2 = 0.0051539 secs.
+n = 100000: unique1 = 0.6723856 secs , unique2 = 0.0070703 secs.
+n = 200000: unique1 = 2.614054 secs , unique2 = 0.0125954 secs.
+n = 400000: unique1 = 10.2220242 secs , unique2 = 0.0208151 secs
+n = 800000: unique1 = 43.3129622 secs , unique2 = 0.040632 secs.
+n = 1000000: unique1 = 69.4788607 secs , unique2 = 0.0523818 secs.
+
+at n = 1000000, the unique1 runtime was pushed to 69.47 seconds. Compared to unique2, which only was pushed to 0.05 seconds.
+
+=> at n = 1000000, the unique1 runtime is at one minute.
